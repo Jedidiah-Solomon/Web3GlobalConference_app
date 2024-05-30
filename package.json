@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "webpack serve --mode development --open --port 5173",
-    "start": "node server.js",
+    "start": "node server.js --open",
     "build": "webpack --mode production",
     "serve": "npx serve dist",
     "lint": "npx eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

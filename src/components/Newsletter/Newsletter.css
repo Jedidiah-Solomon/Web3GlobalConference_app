@@ -140,7 +140,7 @@
 
   .follow-us {
     width: 100%;
-    padding-left: 75px;
+    padding-left: 92px;
   }
   .newsletter-form-container {
     width: 100%;
@@ -151,5 +151,25 @@
   }
   .footer-copyright p {
     font-size: 11px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+  }
+
+  .newsletter-form input {
+    width: 80%;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    width: 80%;
+  }
+  .newsletter-form-container h2 {
+    width: 100%;
   }
 }
