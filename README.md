@@ -4,6 +4,10 @@
 Web 3 Global Conference is an annual event hosted by web3GlobalConference for insights and networking of the current in the Web3 space.
 This is pioneered by Jude Anumudu, a Nigeria who base in Lagos.
 
+### Website
+
+[https://web3globalconference.com](https://web3globalconference.onrender.com/)
+
 #### Commands Used
 
 1. Install Vite `npm create vite@latest my-conference-website --template react`
@@ -18,9 +22,11 @@ This is pioneered by Jude Anumudu, a Nigeria who base in Lagos.
 7. Add and commit the dist directory:
 
 ```
+
 git add dist
 git commit -m "Add build directory for deployment"
 git push origin main
+
 ```
 
 8. Deploy to Vercel: Vercel will automatically detect your project settings. Ensure it uses the dist directory for deployment.
@@ -28,9 +34,11 @@ git push origin main
 10. Commit the change:
 
 ```
+
 git add .gitignore
 git commit -m "Re-add dist to .gitignore"
 git push origin main
+
 ```
 
 11. This process ensures your dist directory is included for deployment but remains excluded during development to avoid unnecessary clutter and potential conflicts.
@@ -53,3 +61,7 @@ git push origin main
 
 1. `node server.js` or `npm start`,
 2. `http://localhost:3000/terms`
+
+```
+
+```

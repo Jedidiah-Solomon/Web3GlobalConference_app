@@ -8,7 +8,7 @@ const reasonsData = [
   },
   {
     title: "Elite Audience",
-    body: "Immerse yourself in an intimate and highly selective networking environment, limited to 500 participants, ensuring unparalleled opportunities for quality connections.",
+    body: "Engage with a distinguished gathering of web3 decision makers and industry experts, with 90% of attendees comprising influential leaders in the field.",
   },
   {
     title: "Exclusively Curated Networking",
