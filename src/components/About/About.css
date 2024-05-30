@@ -63,6 +63,7 @@
   }
   .about p {
     padding: 0 11px;
+    max-width: 340px;
   }
   .stat p {
     padding: 0;

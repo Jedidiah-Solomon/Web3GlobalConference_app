@@ -28,11 +28,6 @@ const speakersData = [
     position: "MEMOI, Founder",
     image: "/img/Jerop_Joan.jpeg",
   },
-  {
-    name: "Jerop Joan",
-    position: "MEMOI, Founder",
-    image: "/img/Jerop_Joan.jpeg",
-  },
 
   {
     name: "Frank Deya",

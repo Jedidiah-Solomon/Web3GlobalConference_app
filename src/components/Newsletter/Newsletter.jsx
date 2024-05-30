@@ -64,10 +64,6 @@ const Newsletter = () => {
               <i className="fab fa-telegram"></i>
             </a>
           </div>
-          <div className="footer-links">
-            <a href="/terms">Terms of Use</a>
-            <a href="/privacy">Privacy Policy</a>
-          </div>
         </div>
         <div className="newsletter-form-container">
           <h2>W3GC NEWSLETTER</h2>
@@ -98,7 +94,14 @@ const Newsletter = () => {
       <div className="footer-copyright">
         <p>
           © {currentYear} W3GC by Web Global Conference LLC. All rights
-          reserved.
+          reserved.{" "}
+          <a id="footer-links" href="/privacy">
+            Privacy Policy
+          </a>{" "}
+          &{" "}
+          <a id="footer-links" href="/terms">
+            Terms of Use
+          </a>
         </p>
       </div>
     </div>

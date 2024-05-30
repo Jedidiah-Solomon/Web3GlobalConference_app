@@ -12,6 +12,9 @@ app.get("*", (req, res) => {
 
 // Start the server
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(PORT, async () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+  // Dynamically import 'open' and open the browser
+  const { default: open } = await import("open");
+  open(`http://localhost:${PORT}`);
 });
