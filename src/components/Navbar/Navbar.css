@@ -90,14 +90,6 @@
     padding-top: 30px;
   }
 
-  .logo img {
-    width: 80px;
-  }
-
-  .logo span {
-    font-size: 36px;
-  }
-
   .hamburger {
     display: block;
     padding-top: 38px;
@@ -167,7 +159,6 @@
   }
 
   .logo img {
-    width: 60px;
     margin-right: 5px;
   }
 
