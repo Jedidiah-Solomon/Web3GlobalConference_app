@@ -34,6 +34,7 @@ const Newsletter = () => {
   };
 
   const currentYear = new Date().getFullYear();
+  const formspreeUrl = process.env.FORMSPREE_URL;
 
   return (
     <div className="newsletter-section">
@@ -64,14 +65,14 @@ const Newsletter = () => {
             </a>
           </div>
           <div className="footer-links">
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
+            <a href="/terms">Terms of Use</a>
+            <a href="/privacy">Privacy Policy</a>
           </div>
         </div>
         <div className="newsletter-form-container">
           <h2>W3GC NEWSLETTER</h2>
           <form
-            action="https://formspree.io/f/mbjnvrov"
+            action={formspreeUrl}
             method="POST"
             onSubmit={handleSubmit}
             className="newsletter-form"

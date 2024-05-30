@@ -69,6 +69,7 @@
   color: #fff;
   border-radius: 50px;
   text-align: center;
+  text-decoration: none;
 }
 
 .nav-links a:hover {

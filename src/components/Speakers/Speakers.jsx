@@ -113,10 +113,10 @@ const speakersData = [
 
 const Speakers = () => {
   return (
-    <div className="speakers">
-      <h2>2023's Keynote Speakers</h2>
+    <div id="speakers" className="speakers">
+      <h2>2023&#39;s Keynote Speakers</h2>
       <p>
-        Exclusive mix of 2023's Speakers & Panelists: bringing together top
+        Exclusive mix of 2023&#39;s Speakers & Panelists: bringing together top
         industry leaders
       </p>
       <div className="speakers-container">

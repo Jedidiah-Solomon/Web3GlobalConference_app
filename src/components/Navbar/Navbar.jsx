@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="#">
+        <a href="/">
           <img src="/img/logo.png" alt="Logo" />
           <span>Web3GlobalConference</span>
         </a>
@@ -24,10 +25,10 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#agenda">Agenda</a>
+            <a href="/#agenda">Agenda</a>
           </li>
           <li>
-            <a href="#">Speakers</a>
+            <a href="/#speakers">Speakers</a>
           </li>
           <li>
             <a href="https://app.moongate.id/e/web3-global-conference-2024/">
