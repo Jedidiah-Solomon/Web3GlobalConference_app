@@ -53,5 +53,3 @@ git push origin main
 
 1. `node server.js` or `npm start`,
 2. `http://localhost:3000/terms`
-
-https://formspree.io/f/xpzvganr

@@ -2,9 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const webpack = require("webpack");
+require("dotenv").config();
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "./src/main.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -17,6 +19,7 @@ module.exports = {
     },
     port: 5173,
     open: true,
+    historyApiFallback: true,
   },
   resolve: {
     extensions: [".js", ".jsx"],
@@ -75,6 +78,9 @@ module.exports = {
         { from: "public/favicons", to: "favicons" },
         { from: "public/img", to: "img" },
       ],
+    }),
+    new webpack.DefinePlugin({
+      "process.env.FORMSPREE_URL": JSON.stringify(process.env.FORMSPREE_URL),
     }),
   ],
 };

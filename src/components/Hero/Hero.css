@@ -16,14 +16,18 @@
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
-  font-size: 4.3rem;
+  font-size: 4.1rem;
   z-index: 100;
   width: 100%;
+}
+
+.hero-text p {
+  text-align: center;
 }
 
 .marquee-container {
