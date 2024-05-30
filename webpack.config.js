@@ -6,7 +6,7 @@ const webpack = require("webpack");
 require("dotenv").config();
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/main.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
