@@ -6,7 +6,7 @@ This is pioneered by Jude Anumudu, a Nigeria who base in Lagos.
 
 ### Website
 
-[https://web3globalconference.com](https://web3globalconference.onrender.com/)
+[web3globalconference.com](https://web3globalconference.com/)
 
 #### Commands Used
 
