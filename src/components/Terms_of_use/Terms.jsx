@@ -65,7 +65,7 @@ const Terms = () => {
 
         <h3>Contacts</h3>
         <p>
-          <a href="mailto:info.web3globalconference@gmail.com">
+          <a href="mailto:info@web3globalconference.com">
             info.web3globalconference@gmail.com
           </a>
         </p>
