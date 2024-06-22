@@ -62,8 +62,12 @@
     align-items: center;
   }
   .about p {
-    padding: 0 11px;
+    padding: 0 10px;
     max-width: 340px;
+    text-align: center;
+    line-height: 2;
+    word-break: break-all;
+    hyphens: auto;
   }
   .stat p {
     padding: 0;
