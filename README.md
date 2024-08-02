@@ -10,7 +10,7 @@ This is pioneered by Jude Anumudu, a Nigeria who base in Lagos.
 
 #### Commands Used
 
-1. Install Vite `npm create vite@latest my-conference-website --template react`
+1. Install Vite `npm create vite@latest web3globalconference_app --template react`
 
 2. Navigate into the project directory `cd my-conference-website`
 
@@ -62,6 +62,3 @@ git push origin main
 1. `node server.js` or `npm start`,
 2. `http://localhost:3000/terms`
 
-```
-
-```
