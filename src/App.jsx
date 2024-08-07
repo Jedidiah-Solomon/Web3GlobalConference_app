@@ -9,6 +9,7 @@ import Partners from "./components/Partners/Partners";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Terms from "./components/Terms_of_use/Terms";
 import Privacy from "./components/Privacy_policy/Privacy";
+import Countdown from "./components/Countdown/Countdown";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
               <Speakers />
               <Partners />
               <Newsletter />
+              <Countdown />
             </>
           }
         />

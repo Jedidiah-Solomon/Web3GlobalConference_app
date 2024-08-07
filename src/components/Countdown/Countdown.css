@@ -1,0 +1,96 @@
+.countdown-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(76, 44, 192);
+    border: 2px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .box-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Make it full width */
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Add space between time units */
+  }
+  
+  .time-value {
+    font-size: 2em;
+  }
+  
+  .time-label {
+    font-size: 1em;
+  }
+  
+  .countdown-section p i {
+    margin-right: 8px; /* Adds some space between the icon and text */
+  }
+  
+    
+  
+  @media (max-width: 768px) {
+    .follow-us {
+      padding-left: 20px;
+    }
+    .newsletter-form-container {
+      padding-right: 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .newsletter-content {
+      flex-direction: column-reverse;
+    }
+  
+    .follow-us {
+      width: 100%;
+      padding-left: 92px;
+    }
+    .newsletter-form-container {
+      width: 100%;
+      padding-right: 1px;
+    }
+    .newsletter-form-container h2 {
+      text-align: center;
+    }
+    .footer-copyright p {
+      font-size: 11px;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      border-radius: 0;
+    }
+  
+    .newsletter-form input {
+      width: 80%;
+      border: none;
+      margin-bottom: 10px;
+    }
+  
+    .newsletter-form button {
+      width: 80%;
+    }
+    .newsletter-form-container h2 {
+      width: 100%;
+    }
+  }
+  
