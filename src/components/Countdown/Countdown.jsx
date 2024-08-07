@@ -27,6 +27,7 @@ const Countdown = ({ venue }) => {
 
     return timeLeft;
   };
+  // here we go
 
   const [targetDate] = useState(getTargetDate());
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(targetDate));
