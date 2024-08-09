@@ -25,7 +25,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/#agenda">Agenda</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-ieND9GPFt1SHou0vVDRGy1Kh6YTPoM3SJvO0QIUFx_Qoww/viewform">
+              Become a Sponsor
+            </a>
           </li>
           <li>
             <a href="/#speakers">Speakers</a>
