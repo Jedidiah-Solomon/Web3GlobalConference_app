@@ -2,6 +2,7 @@ import React from "react";
 import "../Privacy_policy/Privacy.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
+import Countdown from "../Countdown/Countdown";
 
 const Privacy = () => {
   return (
@@ -63,6 +64,7 @@ const Privacy = () => {
         </ul>
       </main>
       <Newsletter />
+      <Countdown />
     </>
   );
 };

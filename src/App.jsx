@@ -7,6 +7,7 @@ import Reasons from "./components/Reason/Reasons";
 import Speakers from "./components/Speakers/Speakers";
 import Partners from "./components/Partners/Partners";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Agenda from "./components/Agenda/Agenda";
 import Terms from "./components/Terms_of_use/Terms";
 import Privacy from "./components/Privacy_policy/Privacy";
 import Countdown from "./components/Countdown/Countdown";
@@ -29,6 +30,7 @@ const App = () => {
             </>
           }
         />
+        <Route path="/agenda" element={<Agenda />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
