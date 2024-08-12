@@ -105,8 +105,8 @@ const Agenda = () => {
           {selectedDay === "day2" && renderSchedule(day2Schedule)}
         </div>
       </div>
-      <Newsletter />
       <Countdown />
+      <Newsletter />
     </>
   );
 };

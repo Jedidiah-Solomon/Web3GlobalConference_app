@@ -21,12 +21,12 @@ const App = () => {
           element={
             <>
               <Homepage />
+              <Countdown />
               <About />
               <Reasons />
               <Speakers />
               <Partners />
               <Newsletter />
-              <Countdown />
             </>
           }
         />

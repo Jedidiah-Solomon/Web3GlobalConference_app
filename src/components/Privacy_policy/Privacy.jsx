@@ -63,8 +63,8 @@ const Privacy = () => {
           <li>Redistribute content from Web3 Conference</li>
         </ul>
       </main>
-      <Newsletter />
       <Countdown />
+      <Newsletter />
     </>
   );
 };

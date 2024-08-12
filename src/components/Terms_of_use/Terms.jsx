@@ -71,8 +71,8 @@ const Terms = () => {
           </a>
         </p>
       </main>
-      <Newsletter />
       <Countdown />
+      <Newsletter />
     </>
   );
 };
