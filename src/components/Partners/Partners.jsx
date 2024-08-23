@@ -9,7 +9,7 @@ const partners = [
   { id: 2, logo: "/img/Stacked-MoonGate.svg", name: "Moongate" },
   { id: 3, logo: "/img/web3nifty.png", name: "Web3Nifty" },
   { id: 4, logo: "/img/BlockX.png", name: "BlockX" },
-  { id: 5, logo: "/img/NerdWarex.png", name: "NerdWarex" },
+  { id: 5, logo: "/img/Nerdwarex.png", name: "NerdWarex" },
   { id: 6, logo: "/img/reality.png", name: "Reality" },
   { id: 7, logo: "/img/Hordanso.png", name: "Hordanso" },
   { id: 8, logo: "/img/Pitchtalk.png", name: "Pitchtalk" },

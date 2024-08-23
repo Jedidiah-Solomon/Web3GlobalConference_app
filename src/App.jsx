@@ -1,5 +1,4 @@
-// src/App.jsx
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import About from "./components/About/About";
@@ -11,10 +10,32 @@ import Agenda from "./components/Agenda/Agenda";
 import Terms from "./components/Terms_of_use/Terms";
 import Privacy from "./components/Privacy_policy/Privacy";
 import Countdown from "./components/Countdown/Countdown";
+import ImageModal from "./components/Modal/ImageModal";
 
 const App = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(true);
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+  // To show the modal only once
+  useEffect(() => {
+    const hasSeenPopup = localStorage.getItem("hasSeenPopup");
+
+    if (!hasSeenPopup) {
+      setModalIsOpen(true);
+      localStorage.setItem("hasSeenPopup", "true");
+    }
+  }, []);
+
   return (
     <Router>
+      <ImageModal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        imageUrl="/img/web3know.jpeg"
+      />
       <Routes>
         <Route
           path="/"
