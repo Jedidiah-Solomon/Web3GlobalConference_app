@@ -33,9 +33,7 @@ const Navbar = () => {
             <a href="/agenda">Agenda</a>
           </li>
           <li>
-            <a href="https://app.moongate.id/e/web3-global-conference-2024/">
-              BOOK A TICKET
-            </a>
+            <a href="https://lu.ma/bt3rglyx">BOOK A TICKET</a>
           </li>
         </ul>
       </div>
