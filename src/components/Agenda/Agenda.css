@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.duration {
+  text-align: center;
+  font-size: 18px;
+}
+
 .day-selector {
   margin: 20px 0;
 }
@@ -59,6 +64,15 @@
 .schedule-item.break-item h3,
 .schedule-item.break-item p {
   color: white;
+}
+
+.schedule-item a {
+  color: #a37af0;
+  font-weight: bold;
+}
+
+.schedule-item a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
