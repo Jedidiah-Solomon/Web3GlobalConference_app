@@ -20,63 +20,53 @@ const Agenda = () => {
     },
     {
       time: "09:15 AM - 09:35 AM",
-      event: `Individual Session: Blockchain in Nigeria: Unraveling the Regulatory Maze - <a href="https://ng.linkedin.com/in/chimeziechuta" target="_blank">Chimezie Chuta</a>`,
+      event: `Individual Session: Blockchain in Nigeria: Unraveling the Regulatory Maze`,
     },
     {
       time: "09:35 AM - 09:55 AM",
       event:
-        "Individual Session: Chain Fusion; A truly decentralised Blockchain interoperability - ICP Hub",
+        "Individual Session: Chain Fusion; A truly decentralised Blockchain interoperability",
     },
     {
       time: "09:55 AM - 10:35 AM",
-      event: `Panel session: The Future of Finance - DeFi & TradFi - <a href="https://www.linkedin.com/in/chisom-felix-23516926b" target="_blank">SomethCrypto</a>,
-<a href="https://www.linkedin.com/in/kingsley-peter-a3a116204" target="_blank">Kingsley Peter</a>,
-<a href="https://www.linkedin.com/in/david-ijie" target="_blank">David Ijie</a>,
-<a href="https://www.linkedin.com/in/david-whyte-john-570742110" target="_blank">David whyte</a> `,
+      event: `Panel session: The Future of Finance - DeFi & TradFi `,
     },
     {
       time: "10:35 AM - 10:55 AM",
-      event: `Individual Session: Web3 Goldmine: How developers can prosper in New Digital Future - <a href="https://www.linkedin.com/in/ayodeji-awosika-69924124" target="_blank">Ayodeji</a> `,
+      event: `Individual Session: Web3 Goldmine: How developers can prosper in New Digital Future. `,
     },
     {
       time: "10:55 AM - 11:15 AM",
       event:
-        "Individual Session: Unlocking New Revenue Streams: Monetization Strategies in a Decentralized Ecosystem. - Ugochukwu Aronu",
+        "Individual Session: Unlocking New Revenue Streams: Monetization Strategies in a Decentralized Ecosystem.",
     },
-
-    //-----------------//
 
     {
       time: "11:15 AM - 11:55 AM",
-      event: `Panel Discussion: Regulatory Challenges in the Blockchain Industry -  Emmanuel tope, 
-<a href="https://www.linkedin.com/in/adefisayo-adejumo" target="_blank">Adejumo Adefisayo</a>`,
+      event: `Panel Discussion: Regulatory Challenges in the Blockchain Industry.`,
     },
     {
       time: "11:55 AM - 12:15 PM",
       event:
-        "Individual Session: Tokenization: The Key to Unlocking Mass Adoption in the Digital Economy - Idris",
+        "Individual Session: Tokenization: The Key to Unlocking Mass Adoption in the Digital Economy.",
     },
 
     {
       time: "12:15 PM - 12:35 PM",
       event:
-        "Individual session: CBDCs: Pros, Cons, and Their Relationship with BTC, ETH, SOL Favor Onuoha (Ghana)",
+        "Individual session: CBDCs: Pros, Cons, and Their Relationship with BTC, ETH, SOL",
     },
-
-    ///--------------------//
 
     { time: "12:35 PM - 01:50 PM", event: "Break" }, // Break event
 
     {
       time: "01:50 PM - 02:30 PM",
-      event: `Panel session: Interoperability and Scaling in Blockchain Networks - <a href="https://rw.linkedin.com/in/fiyinodebunmi" target="_blank">Fiyin Odebunmi</a>,
-<a href="https://www.linkedin.com/in/daniel-idowu-739b0314b" target="_blank">Daniel Idowu</a>,
-<a href="https://www.linkedin.com/in/toluwalope-ajetunmobi" target="_blank">Toluwalope Ajetunmobi</a>`,
+      event: `Panel session: Interoperability and Scaling in Blockchain Networks`,
     },
     {
       time: "02:30 PM - 03:00 PM",
       event:
-        "Technical session: Understanding the Concept of Gasless Dapps and How to Build One - Kingsley Okonkwo (U.A.E)",
+        "Technical session: Understanding the Concept of Gasless Dapps and How to Build One",
     },
     {
       time: "03:00 PM - 03:10 PM",
@@ -86,9 +76,11 @@ const Agenda = () => {
       time: "03:10 PM - 04:00 PM",
       event: "Networking Mixer ",
     },
+    {
+      time: "09:15 AM - 09:35 AM",
+      event: `Individual Session: Blockchain in Nigeria: Unraveling the Regulatory Maze`,
+    },
   ];
-
-  const day2Schedule = [{ time: "Day 2", event: "Dinner and VC Pitching" }];
 
   const renderSchedule = (schedule) =>
     schedule.map((item, index) => (
@@ -99,8 +91,7 @@ const Agenda = () => {
         key={index}
       >
         <h3>{item.time}</h3>
-        {/* Using dangerouslySetInnerHTML to render HTML content */}
-        <p dangerouslySetInnerHTML={{ __html: item.event }}></p>
+        <p>{item.event}</p>
       </div>
     ));
 
@@ -109,25 +100,18 @@ const Agenda = () => {
       <Navbar />
       <div className="agenda-container">
         <h1>Conference Agenda</h1>
-        <p className="duration">Duration: 09:00 AM - 4:00 PM (WAT)</p>
         <div className="day-selector">
           <button
             className={selectedDay === "day1" ? "active" : ""}
             onClick={() => handleDayClick("day1")}
           >
-            Day 1 - October 26
+            Event Day - October 26
           </button>
-          <button
-            className={selectedDay === "day2" ? "active" : ""}
-            onClick={() => handleDayClick("day2")}
-          >
-            Day 2 - October 27
-          </button>
+          <p className="duration">Duration: 09:00 AM - 4:00 PM (WAT)</p>
         </div>
 
         <div className="schedule-container">
           {selectedDay === "day1" && renderSchedule(day1Schedule)}
-          {selectedDay === "day2" && renderSchedule(day2Schedule)}
         </div>
       </div>
       <Countdown />

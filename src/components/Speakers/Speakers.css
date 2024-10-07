@@ -57,3 +57,16 @@
   color: #777;
   text-align: center;
 }
+
+.linkedin-link {
+  display: inline-block;
+  margin-top: 1px;
+  font-size: 1rem;
+  color: #834ce8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+}

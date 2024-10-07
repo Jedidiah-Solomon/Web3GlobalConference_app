@@ -3,116 +3,113 @@ import "./Speakers.css";
 
 const speakersData = [
   {
-    name: "Vaibhav Ali",
-    position: "Growth, Content Creator",
-    image: "/img/VaibhavAli.jpeg",
+    name: "Chisom Felix",
+    position: "Founder, Felbeth",
+    image: "/img/chisom_felix.jpg",
+    linkedin: "https://www.linkedin.com/in/chisom-felix-23516926b/",
   },
   {
-    name: "Peter Hui",
-    position: "Moongate, Co-founder",
-    image: "/img/Peter_Hui.jpg",
+    name: "Kingsley Peter",
+    position: "Country Manager , Onramp.money (Nigeria)",
+    image: "/img/kingsley_peter.jpg",
+    linkedin: "https://www.linkedin.com/in/kingsley-peter-🇳🇬-a3a116204/",
   },
   {
-    name: "Mudit Marda",
-    position: "DRIFE & DexAuction, Founder",
-    image: "/img/Mudit_Marda.jpg",
+    name: "David Ijie",
+    position: " Product Manager , Zone Network",
+    image: "/img/david_ijie.jpg",
+    linkedin: "https://www.linkedin.com/in/david-ijie/",
   },
   {
-    name: "Morten Rongaard",
-    position: "REALITY+, Co-Founder and CEO",
-    image: "/img/Morten_Rongaard.jpg",
-  },
-
-  {
-    name: "Jerop Joan",
-    position: "MEMOI, Founder",
-    image: "/img/Jerop_Joan.jpeg",
+    name: "David whyte",
+    position: "Founder, Vhennus",
+    image: "/img/david_whyte.jpg",
+    linkedin: "https://www.linkedin.com/in/david-whyte-john-570742110/",
   },
 
   {
-    name: "Frank Deya",
-    position: "FOMOWEEKLY, Director",
-    image: "/img/Frank_Deya.jpg",
+    name: "Daniel Idowu",
+    position: "Technical Writer Lagrange Labs",
+    image: "/img/daniel_idowu.jpg",
+    linkedin: "https://www.linkedin.com/in/daniel-idowu-739b0314b/",
+  },
+
+  {
+    name: "Fiyin Odebunmi",
+    position: "Co Founder Helicode",
+    image: "/img/fiyin_debunmi.jpeg",
+    linkedin: "https://www.linkedin.com/in/fiyinodebunmi/",
   },
   {
-    name: "Astha Yadav",
-    position: "Zero-knowledge Advocate",
-    image: "/img/Astha_Yadav.jpg",
+    name: "Toluwalope Ajetunmobi",
+    position: "PhD intern at Nethermind",
+    image: "/img/toluwalope_ajetunmobi.png",
+    linkedin: "https://www.linkedin.com/in/toluwalope-ajetunmobi/",
   },
   {
-    name: "Dimitri Tsapis",
-    position: "FORCEFI, CMO",
-    image: "/img/Dimitri_Tsapis.jpeg",
+    name: "Adejumo Adefisayo",
+    position: "Software Engineer and Web3.js Ambassador",
+    image: "/img/adejumo_adefisayo.png",
+    linkedin: "https://www.linkedin.com/in/adefisayo-adejumo/",
   },
   {
-    name: "Moran Hertzanu Weiss",
-    position: "Hedera, Founder",
-    image: "/img/Moran _Hertzanu_weiss.jpg",
+    name: "Emmanuel Tope",
+    position: " Ecosystem Builder at Toronet",
+    image: "/img/emmanuel_tope.jpeg",
+    linkedin: "https://www.linkedin.com/in/tope-emmanuel-ogunsakin/",
   },
   {
-    name: "Jeff Mkungusi",
-    position: "Africa Blockchain Center, CEO",
-    image: "/img/Jeff_Mkungusi.jpeg",
+    name: "Chimezie Chuta",
+    position: "Founder Blockchain Nigeria User Group (BNUG)",
+    image: "/img/chimezie_chuta.png",
+    linkedin: "https://www.linkedin.com/in/chimeziechuta/",
   },
   {
-    name: "Sakthi V Rajaguru",
-    position: "FABC, Co-founder",
-    image: "/img/Sakthi_Rajaguru.jpg",
+    name: "Adedayo Adebajo",
+    position: "Co-founder ICP.Hub Sahara West Africa",
+    image: "/img/adedayo_adebajo.jpeg",
+    linkedin: "https://www.linkedin.com/in/adedayo-adebajo-61b908b9/",
   },
   {
-    name: "Nick Majumdar",
-    position: "BlockX and Tokenizer, Founder",
-    image: "/img/Nick_Majumdar.jpg",
+    name: "Ugochcukwu Aronu",
+    position: "Founder Xend Finance",
+    image: "/img/ugochcukwu_aronu.jpeg",
+    linkedin: "https://www.linkedin.com/in/ugochukwu-aronu-4477a59b/",
   },
   {
-    name: "Nikhil Goyal",
-    position: "Beyond Imagination, Founder",
-    image: "/img/Nikhil_Goyal.jpeg",
+    name: "Awosike Isreal Ayodeji",
+    position: "Founder Web3Bridge",
+    image: "/img/awosike_isreal_ayodeji.jpg",
+    linkedin: "https://www.linkedin.com/in/ayodeji-awosika-69924124/",
   },
   {
-    name: "Kaya Gulten",
-    position: "PITCHTALK, Business Developer",
-    image: "/img/Kaya_Gulten.jpg",
+    name: "Idris Olubisi",
+    position: "Founder Xend Finance",
+    image: "/img/idris_olubisi.jpeg",
+    linkedin: "https://www.linkedin.com/in/idris-olubisi/",
   },
   {
-    name: "Pranav Agarwal",
-    position: "FOUNDERSHIP, Head of Capital",
-    image: "/img/Pranav.jpg",
+    name: "Favour Onuoha",
+    position: " Senior Developer Relations Engineer at Swing Finance",
+    image: "/img/favour_onuoha.jpeg",
+    linkedin: "https://www.linkedin.com/in/heyonuoha/",
   },
   {
-    name: "Shahd Abdelhadi",
-    position: "Takadao, Head of Growth",
-    image: "/img/Shahd_Abdelhadi.jpg",
-  },
-  {
-    name: "Tomal K Ganguly",
-    position: "Centauri Web3 Consortium, Co-founder",
-    image: "/img/Tomal_Ganguly.jpg",
-  },
-  {
-    name: "Amando Boncales",
-    position: "Althash University, CEO",
-    image: "/img/amando.jpg",
-  },
-  {
-    name: "Drew Williams",
-    position: "FANFUNDR, Founder",
-    image: "/img/Drew_Williams.jpeg",
-  },
-  {
-    name: "Nicholas Weber",
-    position: "THE HUB, Founder",
-    image: "/img/Nicholas_Weber.jpg",
+    name: "Kingsley Okonkwo",
+    position:
+      "Blockchain Developer and Technical Writer at Consensys Software Inc.",
+    image: "/img/kingsley_okonkwo.jpeg",
+    linkedin: "https://www.linkedin.com/in/bruzzy/",
   },
 ];
 
 const Speakers = () => {
   return (
     <div id="speakers" className="speakers">
-      <h2>2023&#39;s Keynote Speakers</h2>
+      <h2>Keynote Speakers and Panelists</h2>
       <p>
-        Exclusive mix of 2023&#39;s Speakers & Panelists: bringing together top
-        industry leaders
+        An elite lineup of speakers and panelists: uniting leading experts and
+        innovators from the industry.
       </p>
       <div className="speakers-container">
         {speakersData.map((speaker, index) => (
@@ -124,6 +121,14 @@ const Speakers = () => {
             />
             <h3>{speaker.name}</h3>
             <p>{speaker.position}</p>
+            <a
+              href={speaker.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin-link"
+            >
+              Connect on LinkedIn
+            </a>
           </div>
         ))}
       </div>

@@ -10,6 +10,7 @@ import Agenda from "./components/Agenda/Agenda";
 import Terms from "./components/Terms_of_use/Terms";
 import Privacy from "./components/Privacy_policy/Privacy";
 import Countdown from "./components/Countdown/Countdown";
+import PastEvents from "./components/PastEvents/PastEvents";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/agenda" element={<Agenda />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/past-events" element={<PastEvents />} />
       </Routes>
     </Router>
   );

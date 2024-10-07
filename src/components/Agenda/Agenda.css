@@ -28,6 +28,7 @@
 .day-selector button:hover {
   background-color: #a37af0;
   color: white;
+  cursor: auto;
 }
 
 .schedule-container {

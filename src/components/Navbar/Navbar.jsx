@@ -25,6 +25,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="/past-events">Past Events</a>
+          </li>
+          <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-ieND9GPFt1SHou0vVDRGy1Kh6YTPoM3SJvO0QIUFx_Qoww/viewform">
               Become a Sponsor
             </a>
