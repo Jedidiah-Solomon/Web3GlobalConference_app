@@ -84,7 +84,7 @@ const speakersData = [
   },
   {
     name: "Idris Olubisi",
-    position: "Founder Xend Finance",
+    position: " Developer Advocate, Axelar",
     image: "/img/idris_olubisi.jpeg",
     linkedin: "https://www.linkedin.com/in/idris-olubisi/",
   },
