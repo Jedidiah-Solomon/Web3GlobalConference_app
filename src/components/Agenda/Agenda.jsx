@@ -43,7 +43,7 @@ const Agenda = () => {
 
     {
       time: "11:15 AM - 11:55 AM",
-      event: `Panel Discussion: Regulatory Challenges in the Blockchain Industry.`,
+      event: `Panel Discussion: Engagement in Web3: How Marketing and Community Building Intersect.`,
     },
     {
       time: "11:55 AM - 12:15 PM",
@@ -75,10 +75,6 @@ const Agenda = () => {
     {
       time: "03:10 PM - 04:00 PM",
       event: "Networking Mixer ",
-    },
-    {
-      time: "09:15 AM - 09:35 AM",
-      event: `Individual Session: Blockchain in Nigeria: Unraveling the Regulatory Maze`,
     },
   ];
 
