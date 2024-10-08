@@ -71,12 +71,6 @@ const speakersData = [
     linkedin: "https://www.linkedin.com/in/adedayo-adebajo-61b908b9/",
   },
   {
-    name: "Ugochcukwu Aronu",
-    position: "Founder Xend Finance",
-    image: "/img/ugochcukwu_aronu.jpeg",
-    linkedin: "https://www.linkedin.com/in/ugochukwu-aronu-4477a59b/",
-  },
-  {
     name: "Awosike Isreal Ayodeji",
     position: "Founder Web3Bridge",
     image: "/img/awosike_isreal_ayodeji.jpg",
