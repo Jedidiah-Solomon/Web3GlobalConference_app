@@ -102,7 +102,6 @@ const Agenda = () => {
           >
             Event Day - October 26
           </button>
-          <p className="duration">Duration: 09:00 AM - 4:00 PM (WAT)</p>
         </div>
 
         <div className="schedule-container">
