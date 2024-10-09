@@ -12,11 +12,10 @@ const Agenda = () => {
   };
 
   const day1Schedule = [
-    { time: "08:00 AM - 09:00 AM", event: "Registration and Red Carpet" },
+    { time: "08:00 AM - 09:00 AM", event: "Registration" },
     {
       time: "09:00 AM - 09:15 AM",
-      event:
-        "Opening Remarks - Introduction by the host, overview of the conference theme, and acknowledgment of sponsors and key participants.",
+      event: "Opening Remarks",
     },
     {
       time: "09:15 AM - 09:35 AM",

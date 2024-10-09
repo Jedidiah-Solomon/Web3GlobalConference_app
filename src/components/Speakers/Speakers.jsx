@@ -3,16 +3,40 @@ import "./Speakers.css";
 
 const speakersData = [
   {
-    name: "Chisom Felix",
-    position: "Founder, Felbeth",
-    image: "/img/chisom_felix.jpg",
-    linkedin: "https://www.linkedin.com/in/chisom-felix-23516926b/",
+    name: "Chimezie Chuta",
+    position: "Founder Blockchain Nigeria User Group (BNUG)",
+    image: "/img/chimezie_chuta.png",
+    linkedin: "https://www.linkedin.com/in/chimeziechuta/",
+  },
+  {
+    name: "Adedayo Adebajo",
+    position: "Co-founder ICP.Hub Sahara West Africa",
+    image: "/img/adedayo_adebajo.jpeg",
+    linkedin: "https://www.linkedin.com/in/adedayo-adebajo-61b908b9/",
+  },
+  {
+    name: "Emmanuel Tope",
+    position: " Ecosystem Builder at Toronet",
+    image: "/img/emmanuel_tope.jpeg",
+    linkedin: "https://www.linkedin.com/in/tope-emmanuel-ogunsakin/",
   },
   {
     name: "Kingsley Peter",
     position: "Country Manager , Onramp.money (Nigeria)",
     image: "/img/kingsley_peter.jpg",
     linkedin: "https://www.linkedin.com/in/kingsley-peter-🇳🇬-a3a116204/",
+  },
+  {
+    name: "Chisom Felix",
+    position: "Founder, Felbeth",
+    image: "/img/chisom_felix.jpg",
+    linkedin: "https://www.linkedin.com/in/chisom-felix-23516926b/",
+  },
+  {
+    name: "Awosike Isreal Ayodeji",
+    position: "Founder Web3Bridge",
+    image: "/img/awosike_isreal_ayodeji.jpg",
+    linkedin: "https://www.linkedin.com/in/ayodeji-awosika-69924124/",
   },
   {
     name: "David Ijie",
@@ -52,39 +76,10 @@ const speakersData = [
     image: "/img/adejumo_adefisayo.png",
     linkedin: "https://www.linkedin.com/in/adefisayo-adejumo/",
   },
-  {
-    name: "Emmanuel Tope",
-    position: " Ecosystem Builder at Toronet",
-    image: "/img/emmanuel_tope.jpeg",
-    linkedin: "https://www.linkedin.com/in/tope-emmanuel-ogunsakin/",
-  },
-  {
-    name: "Chimezie Chuta",
-    position: "Founder Blockchain Nigeria User Group (BNUG)",
-    image: "/img/chimezie_chuta.png",
-    linkedin: "https://www.linkedin.com/in/chimeziechuta/",
-  },
-  {
-    name: "Adedayo Adebajo",
-    position: "Co-founder ICP.Hub Sahara West Africa",
-    image: "/img/adedayo_adebajo.jpeg",
-    linkedin: "https://www.linkedin.com/in/adedayo-adebajo-61b908b9/",
-  },
-  {
-    name: "Ugochcukwu Aronu",
-    position: "Founder Xend Finance",
-    image: "/img/ugochcukwu_aronu.jpeg",
-    linkedin: "https://www.linkedin.com/in/ugochukwu-aronu-4477a59b/",
-  },
-  {
-    name: "Awosike Isreal Ayodeji",
-    position: "Founder Web3Bridge",
-    image: "/img/awosike_isreal_ayodeji.jpg",
-    linkedin: "https://www.linkedin.com/in/ayodeji-awosika-69924124/",
-  },
+
   {
     name: "Idris Olubisi",
-    position: "Founder Xend Finance",
+    position: "Developer Advocate at Axelar",
     image: "/img/idris_olubisi.jpeg",
     linkedin: "https://www.linkedin.com/in/idris-olubisi/",
   },
