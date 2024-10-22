@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,9 @@ const Navbar = () => {
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#speakers">SPEAKERS</a>
+            <HashLink smooth to="/#speakers">
+              SPEAKERS
+            </HashLink>
           </li>
           <li>
             <a href="/past-events">Past Events</a>

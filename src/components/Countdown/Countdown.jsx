@@ -21,7 +21,7 @@ const Countdown = ({ venue }) => {
         seconds: Math.floor((difference / 1000) % 60),
       };
     } else {
-      timeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
+      timeLeft = null;
     }
 
     return timeLeft;
@@ -38,12 +38,16 @@ const Countdown = ({ venue }) => {
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  return (
-    <div className="countdown-section">
-      <p className="location-text">
-        <i className="fas fa-map-marker-alt"></i> The Zone, Gbagada, Lagos
-        State.
-      </p>
+  const renderCountdown = () => {
+    if (!timeLeft) {
+      return (
+        <p className="expired-message">
+          The event is today! Don't miss out🎉🎉
+        </p>
+      );
+    }
+
+    return (
       <div className="box-content">
         <div className="time-unit">
           <div className="time-value">{timeLeft.days}</div>
@@ -62,6 +66,16 @@ const Countdown = ({ venue }) => {
           <div className="time-label">Secs</div>
         </div>
       </div>
+    );
+  };
+
+  return (
+    <div className="countdown-section">
+      <p className="location-text">
+        <i className="fas fa-map-marker-alt"></i> The Zone, Gbagada, Lagos
+        State.
+      </p>
+      {renderCountdown()}
     </div>
   );
 };

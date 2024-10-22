@@ -42,6 +42,10 @@
   margin-right: 8px; /* Adds some space between the icon and text */
 }
 
+.expired-message {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .follow-us {
     padding-left: 20px;

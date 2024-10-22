@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Agenda.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
@@ -6,6 +6,10 @@ import Countdown from "../Countdown/Countdown";
 
 const Agenda = () => {
   const [selectedDay, setSelectedDay] = useState("day1");
+
+  useEffect(() => {
+    document.title = "W3GC | Agenda";
+  }, []);
 
   const handleDayClick = (day) => {
     setSelectedDay(day);

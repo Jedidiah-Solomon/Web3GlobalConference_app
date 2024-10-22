@@ -2,19 +2,18 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Sponsors.css";
+import "./MediaPartners.css";
 
-const sponsors = [
-  { id: 1, logo: "/img/icp_hub.jpeg", name: "ICP HUB" },
-  { id: 2, logo: "/img/ton_society.png", name: "TON SOCIETY" },
+const media_partners = [
+  { id: 1, logo: "/img/tech_next.png", name: "TechNext" },
 ];
 
-const Sponsors = () => {
+const MediaPartners = () => {
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: media_partners.length > 1,
     speed: 500,
-    slidesToShow: sponsors.length,
+    slidesToShow: media_partners.length,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -22,14 +21,14 @@ const Sponsors = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: Math.min(sponsors.length, 3),
+          slidesToShow: Math.min(media_partners.length, 1),
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: Math.min(sponsors.length, 2),
+          slidesToShow: Math.min(media_partners.length, 1),
           slidesToScroll: 1,
         },
       },
@@ -48,20 +47,20 @@ const Sponsors = () => {
   };
 
   return (
-    <div className="sponsors-section">
-      <h2>Official Sponsors</h2>
+    <div className="media-partners-section">
+      <h2>Media Partner</h2>
       <Slider {...settings}>
-        {sponsors.map((sponsor) => (
-          <div key={sponsor.id} className="sponsor-logo">
-            <img src={sponsor.logo} alt={sponsor.name} />
+        {media_partners.map((media_partner) => (
+          <div key={media_partner.id} className="media-partner-logo">
+            <img src={media_partner.logo} alt={media_partner.name} />
           </div>
         ))}
       </Slider>
-      {/* <button className="sponsor-button" onClick={handleButtonClick}>
-        Become a Sponsor
+      {/* <button className="media-partner-button" onClick={handleButtonClick}>
+        Become a Partner
       </button> */}
     </div>
   );
 };
 
-export default Sponsors;
+export default MediaPartners;

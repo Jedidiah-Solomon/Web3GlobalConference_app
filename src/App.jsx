@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Reasons from "./components/Reason/Reasons";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Speakers from "./components/Speakers/Speakers";
+import MediaPartners from "./components/MediaPartners/MediaPartners";
 import Partners from "./components/Partners/Partners";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Agenda from "./components/Agenda/Agenda";
@@ -27,6 +28,7 @@ const App = () => {
               <Reasons />
               <Sponsors />
               <Speakers />
+              <MediaPartners />
               <Partners />
               <Newsletter />
             </>

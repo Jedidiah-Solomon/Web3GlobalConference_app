@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Privacy_policy/Privacy.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
 import Countdown from "../Countdown/Countdown";
 
 const Privacy = () => {
+  useEffect(() => {
+    document.title = "W3GC | Privacy Policy";
+  }, []);
+
   return (
     <>
       <Navbar />
