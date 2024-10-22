@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import About from "./components/About/About";
 import Reasons from "./components/Reason/Reasons";
+import Sponsors from "./components/Sponsors/Sponsors";
 import Speakers from "./components/Speakers/Speakers";
 import Partners from "./components/Partners/Partners";
 import Newsletter from "./components/Newsletter/Newsletter";
@@ -24,6 +25,7 @@ const App = () => {
               <Countdown />
               <About />
               <Reasons />
+              <Sponsors />
               <Speakers />
               <Partners />
               <Newsletter />

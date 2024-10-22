@@ -20,9 +20,7 @@ const Navbar = () => {
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOCFyt6izfrUbp0JCyvoP9TGRKAnK5LERjmbD35WMsTIl-Jg/viewform">
-              BE A SPEAKER
-            </a>
+            <a href="#speakers">SPEAKERS</a>
           </li>
           <li>
             <a href="/past-events">Past Events</a>

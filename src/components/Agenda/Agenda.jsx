@@ -56,7 +56,12 @@ const Agenda = () => {
         "Individual session: CBDCs: Pros, Cons, and Their Relationship with BTC, ETH, SOL",
     },
 
-    { time: "12:35 PM - 01:50 PM", event: "Break" }, // Break event
+    {
+      time: "12:35 PM - 12:45 PM",
+      event: "TON Society",
+    },
+
+    { time: "12:45 PM - 01:50 PM", event: "Break" }, // Break event
 
     {
       time: "01:50 PM - 02:30 PM",

@@ -21,10 +21,11 @@ const speakersData = [
     linkedin: "https://www.linkedin.com/in/tope-emmanuel-ogunsakin/",
   },
   {
-    name: "Kingsley Peter",
-    position: "Country Manager , Onramp.money (Nigeria)",
-    image: "/img/kingsley_peter.jpg",
-    linkedin: "https://www.linkedin.com/in/kingsley-peter-🇳🇬-a3a116204/",
+    name: "Linda Obi",
+    position:
+      "Blockchain Strategist & Global Growth Leader | Forbes Council Member | Top 100 Women Shaping the Future",
+    image: "/img/linda_obi.JPG",
+    linkedin: "https://www.linkedin.com/in/linda-i-a-obi-01981491/",
   },
   {
     name: "Chisom Felix",

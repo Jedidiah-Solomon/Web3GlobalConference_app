@@ -1,0 +1,41 @@
+.sponsors-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgb(131, 76, 232);
+}
+
+.sponsors-section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.sponsor-logo {
+  padding: 10px;
+}
+
+.sponsor-logo img {
+  max-width: 100%;
+  max-height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sponsor-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #854eeb;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color color 0.3s;
+}
+
+.sponsor-button:hover {
+  background-color: #854eeb;
+  color: #fff;
+  opacity: 0.75;
+}

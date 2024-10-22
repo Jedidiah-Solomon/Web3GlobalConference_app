@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Partners.css";
 
 const partners = [
-  { id: 1, logo: "/img/Tokenizer.png", name: "Tokenizer" },
-  { id: 2, logo: "/img/Stacked-MoonGate.svg", name: "Moongate" },
+  { id: 1, logo: "/img/icp_hub.jpeg", name: "ICP HUB" },
+  { id: 2, logo: "/img/ton_society.png", name: "TON SOCIETY" },
   { id: 3, logo: "/img/web3nifty.png", name: "Web3Nifty" },
   { id: 4, logo: "/img/BlockX.png", name: "BlockX" },
   { id: 5, logo: "/img/Nerdwarex.png", name: "NerdWarex" },
@@ -28,6 +28,8 @@ const partners = [
   { id: 17, logo: "/img/Fomo.png", name: "Fomo" },
   { id: 18, logo: "/img/hub.svg", name: "The Hub" },
   { id: 19, logo: "/img/shoppleverse.png", name: "Shoppleverse" },
+  { id: 20, logo: "/img/Tokenizer.png", name: "Tokenizer" },
+  { id: 21, logo: "/img/Stacked-MoonGate.svg", name: "Moongate" },
 ];
 
 const Partners = () => {
@@ -71,7 +73,7 @@ const Partners = () => {
 
   return (
     <div className="partners-section">
-      <h2>Official Partners</h2>
+      <h2>Official Community Partners</h2>
       <Slider {...settings}>
         {partners.map((partner) => (
           <div key={partner.id} className="partner-logo">
