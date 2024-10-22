@@ -7,6 +7,7 @@ import "./Sponsors.css";
 const sponsors = [
   { id: 1, logo: "/img/icp_hub.jpeg", name: "ICP HUB" },
   { id: 2, logo: "/img/ton_society.png", name: "TON SOCIETY" },
+  { id: 2, logo: "/img/wizzwoods_game.jpg", name: "Wizz Woods Game" },
 ];
 
 const Sponsors = () => {
