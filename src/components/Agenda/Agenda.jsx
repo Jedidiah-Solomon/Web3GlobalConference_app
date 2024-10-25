@@ -50,19 +50,18 @@ const Agenda = () => {
     },
     {
       time: "11:55 AM - 12:15 PM",
-      event:
-        "Individual Session: Tokenization: The Key to Unlocking Mass Adoption in the Digital Economy.",
+      event: "Individual Session: Web3 in Every Pocket.",
     },
 
     {
       time: "12:15 PM - 12:35 PM",
       event:
-        "Individual session: CBDCs: Pros, Cons, and Their Relationship with BTC, ETH, SOL",
+        "Individual Session: The Battle For Ownership: Protecting Your Digital Assets in Web3",
     },
 
     {
       time: "12:35 PM - 12:45 PM",
-      event: "TON Society",
+      event: "Wizzwood Presentation",
     },
 
     { time: "12:45 PM - 01:50 PM", event: "Break" }, // Break event
