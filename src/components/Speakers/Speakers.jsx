@@ -79,16 +79,16 @@ const speakersData = [
   },
 
   {
-    name: "Idris Olubisi",
-    position: "Developer Advocate at Axelar",
-    image: "/img/idris_olubisi.jpeg",
-    linkedin: "https://www.linkedin.com/in/idris-olubisi/",
+    name: "Glory Praise Emmanuel",
+    position: "Developer Advocate, INTMAX",
+    image: "/img/glory_praise.jpg",
+    linkedin: "https://www.linkedin.com/in/emmaglorypraise/",
   },
   {
-    name: "Favour Onuoha",
-    position: " Senior Developer Relations Engineer at Swing Finance",
-    image: "/img/favour_onuoha.jpeg",
-    linkedin: "https://www.linkedin.com/in/heyonuoha/",
+    name: "Uchenna Agams Onuegbu ",
+    position: "TON Syndicate",
+    image: "/img/uchenna_agams.jpeg",
+    linkedin: "https://www.linkedin.com/in/agams/",
   },
   {
     name: "Kingsley Okonkwo",
