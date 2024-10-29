@@ -40,11 +40,7 @@ const Countdown = ({ venue }) => {
 
   const renderCountdown = () => {
     if (!timeLeft) {
-      return (
-        <p className="expired-message">
-          The event is today! Don't miss out🎉🎉
-        </p>
-      );
+      return <p className="expired-message">Thank you for joining us!🎉🎉</p>;
     }
 
     return (
