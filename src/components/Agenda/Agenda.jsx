@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Agenda.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
-import Countdown from "../Countdown/Countdown";
+// import Countdown from "../Countdown/Countdown";
 
 const Agenda = () => {
   const [selectedDay, setSelectedDay] = useState("day1");
@@ -116,7 +116,7 @@ const Agenda = () => {
           {selectedDay === "day1" && renderSchedule(day1Schedule)}
         </div>
       </div>
-      <Countdown />
+      {/* <Countdown /> */}
       <Newsletter />
     </>
   );

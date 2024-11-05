@@ -33,8 +33,8 @@ const Hero = () => {
       </div>
       <div className="marquee-container">
         <span className="marquee-text">
-          <span id="date-span">Date:</span> Saturday, 26th October, 2024 | Time:
-          9:00 - 16:00 WAT
+          <span id="date-span">2025 Edition:</span> Planning is underway. Reach
+          out for partnership opportunities.
         </span>
       </div>
       <div className="hero-dot-play">

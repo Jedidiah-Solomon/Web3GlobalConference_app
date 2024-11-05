@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../Privacy_policy/Privacy.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
-import Countdown from "../Countdown/Countdown";
+// import Countdown from "../Countdown/Countdown";
 
 const Privacy = () => {
   useEffect(() => {
@@ -67,7 +67,7 @@ const Privacy = () => {
           <li>Redistribute content from Web3 Conference</li>
         </ul>
       </main>
-      <Countdown />
+      {/* <Countdown /> */}
       <Newsletter />
     </>
   );

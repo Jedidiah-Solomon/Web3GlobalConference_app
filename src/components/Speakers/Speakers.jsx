@@ -102,7 +102,7 @@ const speakersData = [
 const Speakers = () => {
   return (
     <div id="speakers" className="speakers">
-      <h2>Keynote Speakers and Panelists</h2>
+      <h2>Keynote Speakers and Panelists | 2024 Edition</h2>
       <p>
         An elite lineup of speakers and panelists: uniting leading experts and
         innovators from the industry.

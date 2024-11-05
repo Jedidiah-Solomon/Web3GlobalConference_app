@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../Terms_of_use/Terms.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../Newsletter/Newsletter";
-import Countdown from "../Countdown/Countdown";
+// import Countdown from "../Countdown/Countdown";
 
 const Terms = () => {
   useEffect(() => {
@@ -75,7 +75,7 @@ const Terms = () => {
           </a>
         </p>
       </main>
-      <Countdown />
+      {/* <Countdown /> */}
       <Newsletter />
     </>
   );

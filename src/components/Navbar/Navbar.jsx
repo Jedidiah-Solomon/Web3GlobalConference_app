@@ -36,9 +36,9 @@ const Navbar = () => {
           <li>
             <a href="/agenda">Agenda</a>
           </li>
-          <li>
+          {/* <li>
             <a href="https://lu.ma/bt3rglyx">BOOK A TICKET</a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
