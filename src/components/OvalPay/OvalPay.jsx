@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 import "./ovalpay.css";
 
@@ -9,7 +9,9 @@ export default function OvalPay() {
 
   return (
     <div className="landing-container">
-      <div className="logo">Ovalpay</div>
+      <div className="logo">
+        <img src="https://i.ibb.co/0jZCR2ch/ovalpay-logo.png" alt="OvalPay" />
+      </div>
 
       <div className="powered-by">
         Powered by <span className="OvalPay-logo">Web3Global</span>

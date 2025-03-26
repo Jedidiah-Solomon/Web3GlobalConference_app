@@ -24,6 +24,13 @@
   color: #6524e9;
 }
 
+.logo img {
+  width: 140px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .powered-by {
   position: absolute;
   top: 25px;
