@@ -30,7 +30,7 @@ export default function OvalPay() {
           <button className="download-button">
             <span className="play-icon">▶</span>{" "}
             <a
-              href="https://play.google.com/store/apps/details?id=com.sample.ovalpay"
+              href="https://play.google.com/store/apps/details?id=com.web3global.ovalpay"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ export default function OvalPay() {
           </button>
           <p className="ios-link">
             <a
-              href="https://apps.apple.com/us/app/sample-ovalpay/id1234567890"
+              href="https://apps.apple.com/us/app/web3global-ovalpay/id2025"
               target="_blank"
               rel="noopener noreferrer"
             >
