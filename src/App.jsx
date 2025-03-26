@@ -13,6 +13,7 @@ import Terms from "./components/Terms_of_use/Terms";
 import Privacy from "./components/Privacy_policy/Privacy";
 // import Countdown from "./components/Countdown/Countdown";
 import PastEvents from "./components/PastEvents/PastEvents";
+import OvalPay from "./components/OvalPay/OvalPay";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/past-events" element={<PastEvents />} />
+        <Route path="/ovalpay" element={<OvalPay />} />
       </Routes>
     </Router>
   );

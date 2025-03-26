@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.landing-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 34px;
+  font-weight: 900;
+  color: #6524e9;
+}
+
+.powered-by {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 18px;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.OvalPay-logo {
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  color: #6524e9;
+}
+
+.OvalPay-logo::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #6524e9;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.object {
+  position: absolute;
+  background: linear-gradient(135deg, #6524e9, #ffcc00);
+  border-radius: 50%;
+  filter: blur(6px);
+}
+
+.object-1 {
+  width: 150px;
+  height: 150px;
+  top: 10%;
+  right: 15%;
+  opacity: 0.8;
+}
+
+.object-2 {
+  width: 100px;
+  height: 100px;
+  bottom: 20%;
+  left: 10%;
+  transform: rotate(45deg);
+  opacity: 0.7;
+}
+
+.object-3 {
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 5%;
+  transform: rotate(30deg);
+  opacity: 0.6;
+}
+
+.object-4 {
+  width: 80px;
+  height: 120px;
+  bottom: 15%;
+  right: 10%;
+  transform: rotate(-15deg);
+  opacity: 0.7;
+}
+
+.object-5 {
+  width: 150px;
+  height: 80px;
+  bottom: 30%;
+  right: 30%;
+  opacity: 0.6;
+}
+
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  z-index: 10;
+}
+
+.headline {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #6524e9, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.dot {
+  color: #6524e9;
+  font-size: 3rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.download-button {
+  background-color: #6524e9;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.download-button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  transform: scale(1.4);
+  background-color: #9272d4;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.play-icon {
+  font-size: 14px;
+}
+
+.ios-link a {
+  color: #6524e9;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.ios-link a:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 2rem;
+    padding: 0 20px;
+  }
+
+  .object {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 1.5rem;
+  }
+
+  .download-button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
