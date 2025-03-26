@@ -3,6 +3,10 @@ import React from "react";
 import "./ovalpay.css";
 
 export default function OvalPay() {
+  useEffect(() => {
+    document.title = "Download OvalPay ";
+  }, []);
+
   return (
     <div className="landing-container">
       <div className="logo">Ovalpay</div>
